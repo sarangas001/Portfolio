@@ -16,4 +16,16 @@ export default defineConfig({
       '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'src/windows'),
     },
   },
+  test: {
+    environment: 'jsdom',
+    globals: true,
+    setupFiles: './src/test/setup.js',
+    alias: {
+      '#components': resolve(dirname(fileURLToPath(import.meta.url)), 'src/components'),
+      '#constants': resolve(dirname(fileURLToPath(import.meta.url)), 'src/constants'),
+      '#store': resolve(dirname(fileURLToPath(import.meta.url)), 'src/store'),
+      '#hoc': resolve(dirname(fileURLToPath(import.meta.url)), 'src/hoc'),
+      '#windows': resolve(dirname(fileURLToPath(import.meta.url)), 'src/windows'),
+    },
+  },
 })
