@@ -79,9 +79,9 @@ const blogPosts = [
     id: 1,
     date: "Sep 2, 2025",
     title:
-      "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
+      "𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐢𝐬 𝐫𝐞𝐩𝐥𝐚𝐜𝐢𝐧𝐠 𝐭𝐫𝐚𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐃𝐞𝐯𝐎𝐩𝐬 𝐦𝐨𝐝𝐞𝐥𝐬.⁣",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://www.linkedin.com/posts/sarangas001_platformengineering-devops-cloudcomputing-share-7460100851429294080-f2Iw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERNDEsBw4S3G8hP9gsTH02drUM1RyfuQug",
   },
   {
     id: 2,
