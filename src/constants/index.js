@@ -77,7 +77,7 @@ const dockApps = [
 const blogPosts = [
   {
     id: 1,
-    date: "Sep 2, 2025",
+    date: "May 14, 2026",
     title:
       "𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠 𝐢𝐬 𝐫𝐞𝐩𝐥𝐚𝐜𝐢𝐧𝐠 𝐭𝐫𝐚𝐝𝐢𝐭𝐢𝐨𝐧𝐚𝐥 𝐃𝐞𝐯𝐎𝐩𝐬 𝐦𝐨𝐝𝐞𝐥𝐬.⁣",
     image: "/images/blog1.png",
@@ -85,17 +85,17 @@ const blogPosts = [
   },
   {
     id: 2,
-    date: "Aug 28, 2025",
-    title: "The Ultimate Guide to Mastering Three.js for 3D Development",
+    date: "May 13, 2026",
+    title: "AI agents are becoming active participants inside DevOps pipelines",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://www.linkedin.com/posts/sarangas001_devops-artificialintelligence-ciabrcd-share-7459826637921054720-nFBz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERNDEsBw4S3G8hP9gsTH02drUM1RyfuQug",
   },
   {
     id: 3,
-    date: "Aug 15, 2025",
-    title: "The Ultimate Guide to Mastering GSAP Animations",
+    date: "May 12, 2026",
+    title: "The 𝐀𝐈 𝐈𝐧𝐟𝐫𝐚𝐬𝐭𝐫𝐮𝐜𝐭𝐮𝐫𝐞.⁣",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://www.linkedin.com/posts/sarangas001_artificialintelligence-nvidia-aiinfrastructure-share-7459440496109727745-x7yw?utm_source=share&utm_medium=member_desktop&rcm=ACoAAERNDEsBw4S3G8hP9gsTH02drUM1RyfuQug",
   },
 ];
 
