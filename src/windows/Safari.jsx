@@ -1,7 +1,7 @@
 import React from 'react'
 import { WindowControlls } from '../components'
 import WindowWrapper from '../hoc/WindowWrapper'
-import { ChevronLeft, ChevronRight, PanelLeft, Search, Share, ShieldHalf } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Copy, MoveRight, PanelLeft, Plus, Search, Share, ShieldHalf } from 'lucide-react'
 import { blogPosts } from '../constants'
 
 const Safari = () => {
@@ -30,20 +30,31 @@ const Safari = () => {
                 <Plus className="icon" />
                 <Copy className="icon" />
             </div>
+        </div>
 
-            <div className="blog">
+        <div className="blog">
                 <h2>My Development Blog</h2>
                 <div className="space-y-8">
                     {blogPosts.map(({id , image, title, date, link}) => (
-                        <div></div>
+                        <div key={id} className="blog-post" >
+                            <div className="col-span-2">
+                                <img src={image} alt={title} />
+                            </div>
+
+                            <div className="content">
+                                <p>{date}</p>
+                                <h3>{title}</h3>
+                                <a href={link} target="_blank" rel="noopener noreferrer">
+                                    Check out full post <MoveRight className="icon-hover" />
+                                </a>
+                            </div>
+                        </div>
                     ))}
                 </div>
-            </div>
-
         </div>
     </>
   )
-}
+};
 
 const SafariWindow = WindowWrapper(Safari, 'safari')
 
