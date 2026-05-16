@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+--title-font:"Inter Tight";
+--primary-color: #B8FF65;
+--primary-color-rgb: 184, 255, 101;
+--secondary-color: #B8FF65;
+--secondary-color-rgb: 184, 255, 101;
+--bg-color: #f7f2ec;
+--bg-light: #F3F3F3;
+--body-font-color:#929191;
+--body-font-size: 17px;
+--title-font-color: #000000;
+--title-font-weight: bold;
+}
+
+.d-menu-1 li a:after,
+.d-menu-1 li a:before{
+    display: none;
+}
+
+.text-fit,.d-menu-1 li a{
+font-weight: 500;
+}
+
+.dark-scheme .d-menu-1 li a:after{
+    display: none;
+}
+
+.d-menu-1 li.active{
+    background: var(--primary-color);
+    padding: 0 20px;
+    border-radius:30px;
+    -moz-border-radius:30px;
+    -webkit-border-radius:30px;
+}
+
+a.btn-main,
+a.btn-main:hover{
+    color:#000000;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.dark-scheme .de-marquee-list .d-item-txt{
+    font-size: 60px;
+    margin: 0 40px;
+}
+
+.dark-scheme .de-marquee-list .d-item-txt:nth-child(even){
+    -webkit-text-stroke: 0;
+    -webkit-text-fill-color: 0;
+}
+
+.owl-custom-nav .btn-prev:before,
+.owl-custom-nav .btn-next:before{
+    color:#000000;
+}
